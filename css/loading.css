@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/px1050356-image-kwvy5sf2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2e0038044727972e3d0ab9f61abb4cf5')
+    no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(30px);
+    z-index: -1;
+    position: absolute;
+}
+
+.loading-text {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
