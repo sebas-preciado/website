@@ -3,8 +3,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
     align-items: center;
+    display: flex;
     justify-content: center;
-    display:
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
 }
 
 .heading {
