@@ -9,4 +9,5 @@ async function generateJoke() {
     })
 
     const data = await res.json()
+    jokeEl.innerHTML = data.joke
 }
