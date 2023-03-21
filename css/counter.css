@@ -9,4 +9,6 @@ body {
     justify-content: center;
     margin: 0;
     overflow: hidden;
+    background-color: #8e44ad;
+    color: #fff;
 }
