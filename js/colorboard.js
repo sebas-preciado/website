@@ -7,12 +7,17 @@ for (let i = 0; i < SQUARES; i++) {
     square.classList.add('square')
     container.appendChild(square)
     square.addEventListener('mouseover', () => setColor(square))
+    square.addEventListener('mouseout', () => removeColor(square))
 }
 
 
 function setColor(element) {
     const color = getRandomColor()
     element.style.background = color
+}
+
+function removeColor(element) {
+    element.style.background = '#1d1d1d'
 }
 
 function getRandomColor() {
