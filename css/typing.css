@@ -12,3 +12,8 @@ body {
     background-color: darksalmon;
 }
 
+div {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(0,0,0,.1)
+}
